@@ -2,7 +2,7 @@ from dataset.mnist import load_mnist
 
 
 def train():
-    load_mnist()
+    (x_train, t_train), (x_test, t_test) = load_mnist(flatten=False)
 
 
 def main():
